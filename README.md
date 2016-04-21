@@ -26,16 +26,19 @@ python extractor.py
 
 **OUTPUT:** for target mentions detected using a maximum string length and right truncated exact string matching, CLEVER's output files include right and left n-gram features (context_left.txt, context_right.txt), candidate event snippets that can be used for additional processing steps (we use lexigram.io's Discover tool for concept recognition), and CLEVER's extraction files (extraction_processid.txt). 
 
-##Target##
+##Step 2: Target##
 ```
 getTargets.py [targetwordclass(es)]
 ```
-##Lablel##
+##Step 3: Label##
 ```
 CLEVER/src/executer.py 
 ```
-##Terminology##
+##Resources##
+###Terminology##
 CLEVER/res/dicts/mbc_terminology.txt
+###Section headers###
+CLEVER/res/headers.txt
 
 ##Applications##
 ###Quality Measurement Event Detection###
