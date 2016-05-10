@@ -3,19 +3,9 @@
 
 This documeention walks through an application of CLEVER for quality measurement event detection.  Specifically, the automatic extraction of Physicain Quality Reporting System measures.
 
-##Resources##
-###Terminology##
-CLEVER/res/dicts/mbc_terminology.txt
-###Section headers###
-CLEVER/res/headers.txt
-
 ##Applications##
 ###Quality Measurement Event Detection###
-**Corpus:** 
-CLEVER/res/corpus/
-Location of clinical notes directory; each note in the directory should appear on one line, preceded by the note identifier and a tab character.  For example:
-```
-11008624	 history: the patient returns today for followup of left maxillary sinus 
+
 ```
 ##Step 1: Terminology Construction##
 ```
@@ -29,7 +19,13 @@ Bash code for normalizing the clinical corpus and training word and phrase embed
 Directory: CLEVER/src/
 Source: extractor.py
 ```
-**extractor.py** uses CLEVER's terminology and note header file to extract concept sequences and other annotated information from clinical text.  The output of the extractor can be be used to design CLEVER rules for clinical event detection tasks.                  
+**Corpus:** 
+CLEVER/res/corpus/
+Location of clinical notes directory; each note in the directory should appear on one line, preceded by the note identifier and a tab character.  For example:
+```
+11008624	 history: the patient returns today for followup of left maxillary sinus 
+
+**extractor.py** uses the corpus (formatted as indicated above), CLEVER's terminology and note header file to extract concept sequences and other annotated information from clinical text.  The output of the extractor can be be used to design CLEVER rules for clinical event detection tasks.                  
 
 Example command line:
 ```
@@ -60,7 +56,11 @@ Directory: CLEVER/src/
 executer.py 
 ```
 
-
+#Resources#
+##Terminology##
+CLEVER/res/dicts/mbc_terminology.txt
+###Section headers###
+CLEVER/res/headers.txt
 
 
 
