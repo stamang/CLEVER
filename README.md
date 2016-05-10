@@ -1,16 +1,33 @@
 # CLEVER #
 ##(CL-inical EVE-nt R-ecognizer)##
+
+This documeention walks through an application of CLEVER for quality measurement event detection.  Specifically, the automatic extraction of Physicain Quality Reporting System measures.
+
+##Resources##
+###Terminology##
+CLEVER/res/dicts/mbc_terminology.txt
+###Section headers###
+CLEVER/res/headers.txt
+
+##Applications##
+###Quality Measurement Event Detection###
+**Corpus:** 
+CLEVER/res/corpus/
+Location of clinical notes directory; each note in the directory should appear on one line, preceded by the note identifier and a tab character.  For example:
+```
+11008624	 history: the patient returns today for followup of left maxillary sinus 
+```
 ##Step 1: Terminology Construction##
 ```
 Directory: CLEVER/res/w2v/
-clinicalphrasesv1.sh
+Source: clinicalphrasesv1.sh
 ```
 Bash code for normalizing the clinical corpus and training word and phrase embeddings, using a cbow model and the word2vec's source code.
 
 ##Step 2:Preprocessing##
 ```
 Directory: CLEVER/src/
-extractor.py
+Source: extractor.py
 ```
 **extractor.py** uses CLEVER's terminology and note header file to extract concept sequences and other annotated information from clinical text.  The output of the extractor can be be used to design CLEVER rules for clinical event detection tasks.                  
 
@@ -19,7 +36,7 @@ Example command line:
 python extractor.py
 --lexicon terminology.txt \
 --section-headers headers.txt \
---main-targets MBC,BCTRIG,METS \
+--main-targets MBC,DRECUR \
 --snippet-length 150 \
 --snippets \
 --notes /path/to/notes/file \
@@ -42,17 +59,7 @@ getTargets.py [targetwordclass(es)]
 Directory: CLEVER/src/
 executer.py 
 ```
-##Resources##
-###Terminology##
-CLEVER/res/dicts/mbc_terminology.txt
-###Section headers###
-CLEVER/res/headers.txt
 
-##Applications##
-###Quality Measurement Event Detection###
-**Corpus:** 
-CLEVER/res/corpus/
-Location of clinical notes directory; each note in the directory should appear on one line, preceded by the note identifier and a tab character.
 
 
 
