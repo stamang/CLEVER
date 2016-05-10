@@ -3,10 +3,8 @@
 
 This documeention walks through an application of CLEVER for quality measurement event detection.  Specifically, the automatic extraction of Physicain Quality Reporting System measures.
 
-##Applications##
-###Quality Measurement Event Detection###
+##Application: Quality Measurement Event Detection###
 
-```
 ##Step 1: Terminology Construction##
 ```
 Directory: CLEVER/res/w2v/
