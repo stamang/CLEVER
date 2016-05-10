@@ -1,6 +1,6 @@
 # CLEVER #
 ##(CL-inical EVE-nt R-ecognizer)##
-##Step 2: Terminology Construction##
+##Step 1: Terminology Construction##
 ```
 CLEVER/res/w2v/clinicalphrasesv1.sh
 ```
