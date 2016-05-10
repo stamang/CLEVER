@@ -1,0 +1,1210 @@
+0|.|DOT
+1|, |PUNCT
+2|; |PUNCT
+3|:|PUNCT
+4|! |PUNCT
+5|? |PUNCT
+6|/|PUNCT
+7|involve|VB
+8|involving|VB
+9|ing|VB
+10|right|RT
+11|left|LT
+12|+|POS
+13|pos |POS
+14|positive|POS
+15| -|NEG
+16| neg |NEG
+17|- |NEG
+18|negative|NEG
+500| ln |BLOC
+501| nslc|BLOC
+502|abdomen|BLOC
+503|bone|BLOC
+504|bony|BLOC
+505|bony sites|BLOC
+506|braest|BLOC
+507|brain|BLOC
+508|brain major secondary|BLOC
+|breast|BLOC
+509|breast|BLOC
+510|colon|BLOC
+511|duct|BLOC
+512|hepatic|BLOC
+514|liver|BLOC
+|lumbar|BLOC
+515|lumbosacral|BLOC
+516|lung|BLOC
+517|lymph|BLOC
+518|lymph node|BLOC
+519|nodal |BLOC
+520|node|BLOC
+521|osseous |BLOC
+|ovarian|BLOC
+|ovary|BLOC
+522|pulm|BLOC
+523|pulmonary|BLOC
+|sacral|BLOC
+|skeletal|BLOC
+525|spinal|BLOC
+526|spine|BLOC
+50|advised the patient|DISC
+51|after discussing|DISC
+52|after discussion|DISC
+53|an extensive discussion|DISC
+54|brief discussion|DISC
+55|briefly discussed|DISC
+56|consultation regarding|DISC
+57|counseled|DISC
+58|depth discussion|DISC
+59|discuss|DISC
+60|discussed|DISC
+61|discussed extensively|DISC
+62|discussing|DISC
+63|discussion|DISC
+64|discussion regarding|DISC
+65|discussions|DISC
+66|discussions about|DISC
+67|educated|DISC
+68|educated about|DISC
+69|educated regarding|DISC
+70|education regarding|DISC
+71|explained|DISC
+72|extensive discussion|DISC
+73|extensive discussion regarding|DISC
+74|extensive discussions|DISC
+75|extensively discussed|DISC
+76|further discussion|DISC
+77|further discussions|DISC
+78|inform them|DISC
+79|informed|DISC
+80|informed them|DISC
+81|informing|DISC
+82|initial consultation|DISC
+83|lengthy discussion|DISC
+84|long conversation|DISC
+85|long discussion|DISC
+86|our discussion|DISC
+87|reiterated|DISC
+88|distant|DIST
+89| dad|FAM
+90| dad's|FAM
+91| dads|FAM
+92| dads'|FAM
+93| son|FAM
+94| son's |FAM
+95| sons|FAM
+96| sons' |FAM
+97|aunt|FAM
+98|aunt's|FAM
+99|aunts|FAM
+100|aunts'|FAM
+101|boyfriend|FAM
+102|boyfriend's|FAM
+103|boyfriends|FAM
+104|boyfriends'|FAM
+105|bride|FAM
+106|bride's|FAM
+107|bridegroom|FAM
+108|bridegroom's|FAM
+109|bridegrooms|FAM
+110|bridegrooms'|FAM
+111|brides|FAM
+112|brides'|FAM
+113|brother|FAM
+114|brother-in-law|FAM
+115|brother-in-law's|FAM
+116|brother-in-laws'|FAM
+117|brother's|FAM
+118|brothers|FAM
+119|brothers-in-law|FAM
+120|brothers'|FAM
+121|child|FAM
+122|child's|FAM
+123|children|FAM
+124|childs|FAM
+125|childs'|FAM
+126|cousin|FAM
+127|cousin's|FAM
+128|cousins|FAM
+129|cousins'|FAM
+130|daughter|FAM
+131|daughter-in-law|FAM
+132|daughter-in-law's|FAM
+133|daughter-in-laws'|FAM
+134|daughter's|FAM
+135|daughters|FAM
+136|daughters-in-law|FAM
+137|daughters'|FAM
+138|family|FAM
+139|family member|FAM
+140|father|FAM
+141|father-in-law|FAM
+142|father-in-law's|FAM
+143|father-in-laws'|FAM
+144|father's|FAM
+145|fathers|FAM
+146|fathers-in-law|FAM
+147|fathers'|FAM
+148|fiance|FAM
+149|fiance's|FAM
+150|fiancee|FAM
+151|fiancee's|FAM
+152|fiancees|FAM
+153|fiancees'|FAM
+154|fiances|FAM
+155|fiances'|FAM
+156|girlfriend|FAM
+157|girlfriend's|FAM
+158|girlfriends|FAM
+159|girlfriends'|FAM
+160|godchild|FAM
+161|godchild's|FAM
+162|godchildren|FAM
+163|godchilds|FAM
+164|godchilds'|FAM
+165|goddaughter|FAM
+166|goddaughter's|FAM
+167|goddaughters|FAM
+168|goddaughters'|FAM
+169|godfather|FAM
+170|godfather's|FAM
+171|godfathers|FAM
+172|godfathers'|FAM
+173|godmother|FAM
+174|godmother's|FAM
+175|godmothers|FAM
+176|godmothers'|FAM
+177|godson|FAM
+178|godson's|FAM
+179|godsons|FAM
+180|godsons'|FAM
+181|grandchild|FAM
+182|grandchild's|FAM
+183|grandchilds|FAM
+184|grandchilds'|FAM
+185|granddad|FAM
+186|granddad's|FAM
+187|granddads|FAM
+188|granddads'|FAM
+189|granddaughter|FAM
+190|granddaughter's|FAM
+191|granddaughters|FAM
+192|granddaughters'|FAM
+193|grandfather|FAM
+194|grandfather's|FAM
+195|grandfathers|FAM
+196|grandfathers'|FAM
+197|grandma|FAM
+198|grandma's|FAM
+199|grandmas|FAM
+200|grandmas'|FAM
+201|grandmother|FAM
+202|grandmother's|FAM
+203|grandmothers|FAM
+204|grandmothers'|FAM
+205|grandpa|FAM
+206|grandpa's|FAM
+207|grandparent|FAM
+208|grandpas|FAM
+209|grandpas'|FAM
+210|grandson|FAM
+211|grandson's|FAM
+212|grandsons|FAM
+213|grandsons'|FAM
+214|granny|FAM
+215|granny's|FAM
+216|grannys|FAM
+217|grannys'|FAM
+218|groom|FAM
+219|groom's|FAM
+220|grooms|FAM
+221|grooms'|FAM
+222|husband|FAM
+223|husband's|FAM
+224|husbands|FAM
+225|husbands'|FAM
+226|mom|FAM
+227|mom's|FAM
+228|moms|FAM
+229|moms'|FAM
+230|mother|FAM
+231|mother-in-law|FAM
+232|mother-in-law's|FAM
+233|mother-in-laws'|FAM
+234|mother's|FAM
+235|mothers|FAM
+236|mothers-in-law|FAM
+237|mothers'|FAM
+238|mum|FAM
+239|mum's|FAM
+240|mummy|FAM
+241|mummy's|FAM
+242|mummys|FAM
+243|mummys'|FAM
+244|mums|FAM
+245|mums'|FAM
+246|nephew|FAM
+247|nephew's|FAM
+248|nephews|FAM
+249|nephews'|FAM
+250|niece|FAM
+251|niece's|FAM
+252|nieces|FAM
+253|nieces'|FAM
+254|parent|FAM
+255|parent's|FAM
+256|parents|FAM
+257|parents-in-law|FAM
+258|parents-in-law's|FAM
+259|parents-in-laws'|FAM
+260|parents'|FAM
+261|sister|FAM
+262|sister-in-law|FAM
+263|sister-in-law's|FAM
+264|sister-in-laws'|FAM
+265|sister's|FAM
+266|sisters|FAM
+267|sisters-in-law|FAM
+268|sisters'|FAM
+269|son-in-law|FAM
+270|son-in-law's|FAM
+271|son-in-laws'|FAM
+272|sons-in-law|FAM
+273|spouse|FAM
+274|spouse's|FAM
+275|spouses|FAM
+276|spouses'|FAM
+277|uncle|FAM
+278|uncle's|FAM
+279|uncles|FAM
+280|uncles'|FAM
+281|wife|FAM
+282|wife's|FAM
+283|wifes|FAM
+284|wifes'|FAM
+285|wives|FAM
+286| na|NEGEX
+287| no |NEGEX
+288| no findings|NEGEX
+289| not|NEGEX
+290| r/o |NEGEX
+291| ro |NEGEX
+292|(-)|NEGEX
+293|absence of|NEGEX
+294|adequate to rule her out|NEGEX
+295|adequate to rule her out for|NEGEX
+296|adequate to rule him out|NEGEX
+297|adequate to rule him out for|NEGEX
+298|adequate to rule out|NEGEX
+299|adequate to rule out for|NEGEX
+300|adequate to rule the patient out|NEGEX
+301|adequate to rule the patient out against|NEGEX
+302|adequate to rule the patient out for|NEGEX
+303|although|NEGEX
+304|apart from|NEGEX
+305|are ruled out|NEGEX
+306|be ruled out|NEGEX
+307|be ruled out for|NEGEX
+308|being ruled out|NEGEX
+309|but no|NEGEX
+310|but no evidence of|NEGEX
+311|but no sign of|NEGEX
+312|but without|NEGEX
+313|can be ruled out|NEGEX
+314|can be ruled out for|NEGEX
+315|can rule her out|NEGEX
+316|can rule her out against|NEGEX
+317|can rule her out for|NEGEX
+318|can rule him out|NEGEX
+319|can rule him out against|NEGEX
+320|can rule him out for|NEGEX
+321|can rule out|NEGEX
+322|can rule out against|NEGEX
+323|can rule out for|NEGEX
+324|can rule the patient out|NEGEX
+325|can rule the patinet out against|NEGEX
+326|can rule the patinet out for|NEGEX
+327|cannot|NEGEX
+328|cannot see|NEGEX
+329|cause for|NEGEX
+330|cause of|NEGEX
+331|causes for|NEGEX
+332|causes of|NEGEX
+333|checked for|NEGEX
+334|could be ruled out|NEGEX
+335|could be ruled out for|NEGEX
+336|declined|NEGEX
+337|declines|NEGEX
+338|demonstrate no|NEGEX
+339|demonstrates no|NEGEX
+340|denied|NEGEX
+341|denied any|NEGEX
+342|denies|NEGEX
+343|denies any|NEGEX
+344|denies ever having|NEGEX
+345|denies frank|NEGEX
+346|deny|NEGEX
+347|denying|NEGEX
+348|did not rule out|NEGEX
+349|did rule her out|NEGEX
+350|did rule her out against|NEGEX
+351|did rule her out for|NEGEX
+352|did rule him out|NEGEX
+353|did rule him out against|NEGEX
+354|did rule him out for|NEGEX
+355|did rule out|NEGEX
+356|did rule out against|NEGEX
+357|did rule out for|NEGEX
+358|did rule the patient out|NEGEX
+359|did rule the patient out against|NEGEX
+360|did rule the patient out for|NEGEX
+361|do not suspect|NEGEX
+362|except|NEGEX
+363|fails to reveal|NEGEX
+364|free|NEGEX
+365|free of|NEGEX
+366|gram negative|NEGEX
+367|has been ruled out|NEGEX
+368|have been ruled out|NEGEX
+369|highly doubt|NEGEX
+370|however|NEGEX
+371|however no|NEGEX
+372|is ruled out|NEGEX
+373|is to be ruled out|NEGEX
+374|is to be ruled out for|NEGEX
+375|less likley|NEGEX
+376|may be ruled out|NEGEX
+377|may be ruled out for|NEGEX
+378|might be ruled out|NEGEX
+379|might be ruled out for|NEGEX
+380|must be ruled out|NEGEX
+381|must be ruled out for|NEGEX
+382|n/a|NEGEX
+383|negative for|NEGEX
+384|never developed|NEGEX
+385|never had|NEGEX
+386|nevertheless|NEGEX
+387|no abnormal|NEGEX
+388|no additional|NEGEX
+389|no cause of|NEGEX
+390|no change|NEGEX
+391|no clear|NEGEX
+392|no complaints of|NEGEX
+393|no convincing|NEGEX
+394|no definite|NEGEX
+395|no definite |NEGEX
+396|no definite change|NEGEX
+397|no definite evidence for|NEGEX
+398|no definite evidence of|NEGEX
+399|no definitive|NEGEX
+400|no definitive evidence of|NEGEX
+401|no discrete|NEGEX
+402|no e/o |NEGEX
+403|no evidence|NEGEX
+404|no evidence for|NEGEX
+405|no evidence of|NEGEX
+406|no evidence to suggest|NEGEX
+407|no evident|NEGEX
+408|no findings of|NEGEX
+409|no findings to indicate|NEGEX
+410|no focal|NEGEX
+411|no gross|NEGEX
+412|no increase|NEGEX
+413|no interval change|NEGEX
+414|no mammographic evidence of|NEGEX
+415|no new|NEGEX
+416|no new evidence|NEGEX
+417|no obvious|NEGEX
+418|no obvious sign of|NEGEX
+419|no other|NEGEX
+420|no other evidence|NEGEX
+421|no other evidence of|NEGEX
+422|no other sign of|NEGEX
+423|no radiographic evidence of|NEGEX
+424|no sign of|NEGEX
+425|no significant|NEGEX
+426|no significant change|NEGEX
+427|no significant interval change|NEGEX
+428|no signs|NEGEX
+429|no signs of|NEGEX
+430|no signs or symptoms|NEGEX
+431|no specific |NEGEX
+432|no suggestion of|NEGEX
+433|no suspicion|NEGEX
+434|no suspicious|NEGEX
+435|no suspicious change|NEGEX
+436|none|NEGEX
+437|not appear|NEGEX
+438|not applicable|NEGEX
+439|not appreciate|NEGEX
+440|not associated with|NEGEX
+441|not been ruled out|NEGEX
+442|not cause|NEGEX
+443|not certain if|NEGEX
+444|not certain whether|NEGEX
+445|not complain of|NEGEX
+446|not demonstrate|NEGEX
+447|not drain|NEGEX
+448|not exhibit|NEGEX
+449|not extend|NEGEX
+450|not feel|NEGEX
+451|not had|NEGEX
+452|not have|NEGEX
+453|not know of|NEGEX
+454|not known|NEGEX
+455|not known to have|NEGEX
+456|not necessarily|NEGEX
+457|not only|NEGEX
+458|not reveal|NEGEX
+459|not ruled out|NEGEX
+460|not see|NEGEX
+461|not to be|NEGEX
+462|other possibilities of|NEGEX
+463|otherwise no|NEGEX
+464|otherwise no evidence of|NEGEX
+465|ought to be ruled out|NEGEX
+466|ought to be ruled out for|NEGEX
+467|patient was not|NEGEX
+468|rather than|NEGEX
+469|rule her out|NEGEX
+470|rule her out for|NEGEX
+471|rule him out|NEGEX
+472|rule him out for|NEGEX
+473|rule out|NEGEX
+474|rule out for|NEGEX
+475|rule the patient out|NEGEX
+476|rule the patient out for|NEGEX
+477|ruled her out|NEGEX
+478|ruled her out against|NEGEX
+479|ruled her out for|NEGEX
+480|ruled him out|NEGEX
+481|ruled him out against|NEGEX
+482|ruled him out for|NEGEX
+483|ruled out|NEGEX
+484|ruled out against|NEGEX
+485|ruled out for|NEGEX
+486|ruled the patient out|NEGEX
+487|ruled the patient out against|NEGEX
+488|ruled the patient out for|NEGEX
+489|rules her out|NEGEX
+490|rules her out for|NEGEX
+491|rules him out|NEGEX
+492|rules him out for|NEGEX
+493|rules out|NEGEX
+494|rules out for|NEGEX
+495|rules the patient out|NEGEX
+496|rules the patient out for|NEGEX
+497|should be ruled out|NEGEX
+498|should be ruled out for|NEGEX
+499|shows no|NEGEX
+500|source for|NEGEX
+501|source of|NEGEX
+502|sources for|NEGEX
+503|sources of|NEGEX
+504|sufficient to rule her out|NEGEX
+505|sufficient to rule her out against|NEGEX
+506|sufficient to rule her out for|NEGEX
+507|sufficient to rule him out|NEGEX
+508|sufficient to rule him out against|NEGEX
+509|sufficient to rule him out for|NEGEX
+510|sufficient to rule out|NEGEX
+511|sufficient to rule out against|NEGEX
+512|sufficient to rule out for|NEGEX
+513|sufficient to rule the patient out|NEGEX
+514|sufficient to rule the patient out against|NEGEX
+515|sufficient to rule the patient out for|NEGEX
+516|there are no|NEGEX
+517|there is no|NEGEX
+518|there is no definite|NEGEX
+519|there is no evidence|NEGEX
+520|to exclude|NEGEX
+521|trigger event for|NEGEX
+522|unknown|NEGEX
+523|unlikely|NEGEX
+524|unlikley|NEGEX
+525|unremarkable for|NEGEX
+526|was ruled out|NEGEX
+527|what must be ruled out is|NEGEX
+528|will be ruled out|NEGEX
+529|will be ruled out for|NEGEX
+530|with negative|NEGEX
+531|with no|NEGEX
+532|with no definite|NEGEX
+533|with no evidence|NEGEX
+534|with no sign|NEGEX
+535|without|NEGEX
+536|without any|NEGEX
+537|without any evidence of|NEGEX
+538|without definite|NEGEX
+539|without difficulty|NEGEX
+540|without evidence|NEGEX
+541|without evidence for|NEGEX
+542|without evidence of|NEGEX
+543|without gross|NEGEX
+544|without indication of|NEGEX
+545|without obvious|NEGEX
+546|without sign of|NEGEX
+547|without significant|NEGEX
+548|without signs|NEGEX
+549| h x|HX
+550| h/o|HX
+551| ho |HX
+552| hx|HX
+553| past|HX
+554|h/o|HX
+555|history|HX
+556|patient history|HX
+557| ddx|HYP
+558| likely|HYP
+559| mdm|HYP
+560| mdm ddx|HYP
+561| poss |HYP
+562| possibe|HYP
+563| possibel|HYP
+564| possibility of|HYP
+565| possibily|HYP
+566| prob|HYP
+567| suspect|HYP
+568|also cannot exclude|HYP
+569|and possible|HYP
+570|and probable|HYP
+571|bony changes consistent|HYP
+572|broad ddx|HYP
+573|clinical correlation requested|HYP
+574|concern for|HYP
+575|concern for possible|HYP
+576|concerning for|HYP
+577|could be due to|HYP
+578|could be related|HYP
+579|ddx incl|HYP
+580|ddx include|HYP
+581|ddx included|HYP
+582|ddx includes|HYP
+583|ddx most likely|HYP
+584|ddx uti|HYP
+585|diff dx|HYP
+586|diff dx includes|HYP
+587|diffdx|HYP
+588|differential includes|HYP
+589|disease suspected|HYP
+590|does this patient|HYP
+591|doubt infectious|HYP
+592|doubt infectious etiology|HYP
+593|eval for|HYP
+594|evalaute|HYP
+595|findings suggest|HYP
+596|findings suggestive of|HYP
+597|findings suspicious for|HYP
+598|further eval|HYP
+599|indeterminate|HYP
+600|is suggested by|HYP
+601|is suspected|HYP
+602|less likely|HYP
+603|less likely given|HYP
+604|less likey|HYP
+605|low suspicion|HYP
+606|may be indicative of|HYP
+607|may suggest|HYP
+608|might appear|HYP
+609|most c w|HYP
+610|most likley|HYP
+611|no certain evidence of|HYP
+612|not excluded correlate clinically|HYP
+613|perhaps due to|HYP
+614|possible etiologies include|HYP
+615|possiblity|HYP
+616|possibly associated with|HYP
+617|possibly due to|HYP
+618|probably due to|HYP
+619|probably related to|HYP
+620|question|HYP
+621|question related to|HYP
+622|question whether there is|HYP
+623|questionable mild|HYP
+624|raises concern about|HYP
+625|raises possibility of|HYP
+626|raises the question|HYP
+627|raising question of|HYP
+628|raising the|HYP
+629|raising the possibility of|HYP
+630|raising the question|HYP
+631|represents some|HYP
+632|seems less likely|HYP
+633|seems unlikely|HYP
+634|strategy for|HYP
+635|sugest|HYP
+636|suggest possibility of|HYP
+637|suggest the possibility|HYP
+638|suggested by|HYP
+639|suggesting possibility of|HYP
+640|suggesting possible|HYP
+641|suggestion of|HYP
+642|suggestive of|HYP
+643|suggests either|HYP
+644|suggests possibility of|HYP
+645|suggests possible|HYP
+646|suggests the possibility|HYP
+647|suspect|HYP
+648|suspicion for|HYP
+649|suspicion of|HYP
+650|suspicious|HYP
+651|suspicious for |HYP
+652|there could be|HYP
+653|there may be|HYP
+654|very low suspicion|HYP
+655|vessels suggesting|HYP
+656|vs less likely|HYP
+657|which raises the|HYP
+658|with possible|HYP
+659|with probable|HYP
+660|with question|HYP
+661|would be another consideration|HYP
+662| protect|PREV
+663| protect against|PREV
+664|avoid|PREV
+665|avoidance|PREV
+666|help prevent|PREV
+667|mitigate|PREV
+668|ppx|PREV
+669|prevent|PREV
+670|prevent recurrence|PREV
+671|preventative|PREV
+672|preventative measure|PREV
+673|preventative measures|PREV
+674|preventing|PREV
+675|prevention|PREV
+676|prevention of|PREV
+677|preventive|PREV
+678|preventive measures|PREV
+679|preventive strategies|PREV
+680|proph|PREV
+681|prophy|PREV
+682|prophylactic|PREV
+683|prophylaxis|PREV
+684|prophylaxis against|PREV
+685|prophylaxsis|PREV
+686|protection|PREV
+687|protection against|PREV
+688|differentiated|QUAL
+689|diffuse|QUAL
+690|increase|QUAL
+691|inflammatory|QUAL
+692|involvment|QUAL
+693|ispilateral|QUAL
+694|poorly|QUAL
+695|size|QUAL
+696|spread|QUAL
+697|systemic spread|QUAL
+698|widely|QUAL
+699|widely disseminated|QUAL
+700|widespread|QUAL
+701| chance|RISK
+702| chances|RISK
+703|adverse outcomes|RISK
+704|complication|RISK
+705|could lead|RISK
+706|greater risk|RISK
+707|high likelihood|RISK
+708|high liklihood|RISK
+709|high risk|RISK
+710|higher likelihood|RISK
+711|higher risk|RISK
+712|highest risk|RISK
+713|increased risk|RISK
+714|indications risks|RISK
+715|inherent risks|RISK
+716|likelihood|RISK
+717|minimize risk|RISK
+718|much higher risk|RISK
+719|must be weighed against|RISK
+720|possibility|RISK
+721|potential|RISK
+722|potential complications|RISK
+723|potential risks|RISK
+724|potential side effects|RISK
+725|predicting|RISK
+726|probability|RISK
+727|propensity|RISK
+728|risk|RISK
+729|risk factor|RISK
+730|risks alternatives|RISK
+731|risks associated|RISK
+732|risks include|RISK
+733|slightly higher risk|RISK
+734|theoretical risk|RISK
+735| screens|SCREEN
+736| studies|SCREEN
+737| test|SCREEN
+738| test for|SCREEN
+739| test results|SCREEN
+740| tested|SCREEN
+741| testing|SCREEN
+742| testings|SCREEN
+743| tests|SCREEN
+744| these tests|SCREEN
+745|annual screening|SCREEN
+746|antibody test|SCREEN
+747|assay|SCREEN
+748|assays|SCREEN
+749|assess for|SCREEN
+750|blood tests|SCREEN
+751|blood work|SCREEN
+752|bone scan|SCREEN
+753|cancer screening|SCREEN
+754|colon cancer screening|SCREEN
+755|evaluate for|SCREEN
+756|evaluation|SCREEN
+757|evaluation of |SCREEN
+758|genetic screening|SCREEN
+759|genetic testing|SCREEN
+760|glucose tolerance test|SCREEN
+761|h/x|SCREEN
+762|health care maintenance|SCREEN
+763|health maintenance|SCREEN
+764|lab testing|SCREEN
+765|lab tests|SCREEN
+766|laboratory testing|SCREEN
+767|panel|SCREEN
+768|prostate cancer screening|SCREEN
+769|rate of|SCREEN
+770|rate of |SCREEN
+771|rates of|SCREEN
+772|retest|SCREEN
+773|retested|SCREEN
+774|retesting|SCREEN
+775|routine screening|SCREEN
+776|score|SCREEN
+777|screen|SCREEN
+778|screened|SCREEN
+779|screening|SCREEN
+780|screening colonoscopy|SCREEN
+781|screening laboratories|SCREEN
+782|screening labs|SCREEN
+783|screening purposes|SCREEN
+784|screening test|SCREEN
+785|screening tests|SCREEN
+786|screening tool|SCREEN
+787|screenings|SCREEN
+788|surveillance|SCREEN
+789|those results|SCREEN
+790|those tests|SCREEN
+791|unable to assess|SCREEN
+792|yearly screening|SCREEN
+793| idc|BCTRIG
+794|bilateral mastectomies|BCTRIG
+795|bilateral mastectomy|BCTRIG
+796|bilateral pulmonary nodules|BCTRIG
+797|breast ca|BCTRIG
+798|breast cancer|BCTRIG
+799|breast cancer involving|BCTRIG
+800|breast cancer triple|BCTRIG
+801|breast idc|BCTRIG
+802|breast idc er|BCTRIG
+803|contralateral breast cancer|BCTRIG
+804|double mastectomy|BCTRIG
+805|grade idc|BCTRIG
+806|idc breast cancer|BCTRIG
+807|idc rt|BCTRIG
+808|moderately differentiated idc er|BCTRIG
+809|modified radical mastectomy|BCTRIG
+810|postmenopausal breast cancer|BCTRIG
+811|premenopausal breast cancer|BCTRIG
+812|radical mastectomy|BCTRIG
+813|unilateral mastectomy|BCTRIG
+814| adeno|CATRIG
+815| ca |CATRIG
+816| onc|CATRIG
+817|adeno ca|CATRIG
+818|adenocarcinoma|CATRIG
+819|benefit from hormonal therapy|CATRIG
+820|biopsy proven|CATRIG
+821|bladder cancer|CATRIG
+822|cancer|CATRIG
+823|cancer diagnosis neuroendrocrine|CATRIG
+824|cancer diagnosis nsclca|CATRIG
+825|cancerous|CATRIG
+826|carcinoma|CATRIG
+827|carcioma|CATRIG
+828|cervical cancer|CATRIG
+829|colon ca|CATRIG
+830|colon cancer|CATRIG
+831|colorectal cancer|CATRIG
+832|distant metastasis n/a|CATRIG
+833|distant metastasis none|CATRIG
+834|distant metastasis not applicable|CATRIG
+835|distant metastasis not known|CATRIG
+836|distant metastasis unknown|CATRIG
+837|esophageal cancer|CATRIG
+838|gastric cancer|CATRIG
+839|hormonal therapy alone|CATRIG
+840|intestinal cancer|CATRIG
+841|invasive breast cancer|CATRIG
+842|invasive ductal carcinoma|CATRIG
+843|invasive lobular carcinoma|CATRIG
+844|lesion|CATRIG
+845|lumpectomies|CATRIG
+846|lumpectomy|CATRIG
+847|lung ca|CATRIG
+848|lung cancer|CATRIG
+849|lymph node involvement|CATRIG
+850|lymphoma|CATRIG
+851|neuroendocrine tumor|CATRIG
+852|newly diagnosed|CATRIG
+853|newly diagnosed stage|CATRIG
+854|nodal disease|CATRIG
+855|nodal involvement|CATRIG
+856|oncology|CATRIG
+857|oncotype dx|CATRIG
+858|oncotype dx score|CATRIG
+859|oncotypedx score|CATRIG
+860|other cancers|CATRIG
+861|ovarian ca|CATRIG
+862|ovarian cancer|CATRIG
+863|pancreatic ca|CATRIG
+864|pancreatic cancer|CATRIG
+865|papillary adenocarcinoma|CATRIG
+866|postoperative radiation therapy|CATRIG
+867|postoperative radiotherapy|CATRIG
+868|prostate cancer|CATRIG
+869|recently diagnosed stage|CATRIG
+870|renal cell ca major|CATRIG
+871|renal cell carcinoma|CATRIG
+872|sarcoma|CATRIG
+873|squamous cell cancer|CATRIG
+874|squamous cell carcinoma|CATRIG
+875|stage|CATRIG
+876|stage ii |CATRIG
+877|stage ii idc|CATRIG
+878|stage iia|CATRIG
+879|stage iib|CATRIG
+880|stage iiia|CATRIG
+881|stage iiia er pr|CATRIG
+882|stage iiic|CATRIG
+883|stomach cancer|CATRIG
+884|surgical resection|CATRIG
+885|testicular cancer|CATRIG
+886|thyroid cancer|CATRIG
+887|tumor|CATRIG
+888|tumors|CATRIG
+889|uterine cancer|CATRIG
+890| rd generation chemotherapy|CATX
+891|adjuvant chemoradiation|CATX
+892|adjuvant chemotherapy|CATX
+893|adjuvant hormonal|CATX
+894|adjuvant hormonal therapy|CATX
+895|adjuvant online|CATX
+896|adjuvant online model|CATX
+897|adjuvant online program|CATX
+898|adjuvant radiation|CATX
+899|adjuvant radiation therapy|CATX
+900|adjuvant radiotherapy|CATX
+901|adjuvant therapy|CATX
+902|adjuvant treatment|CATX
+903|adjuvantonline|CATX
+904|admission bsi chemo|CATX
+905|admission herceptin zometa|CATX
+906|admission zometa chemo|CATX
+907|admission zometa faslodex|CATX
+908|avastin zometa cycle|CATX
+909|benefit from adjuvant chemotherapy|CATX
+910|chemo zometa chemo|CATX
+911|chemoradiation|CATX
+912|chemotherapy|CATX
+913|currently receiving chemotherapy|CATX
+914|currently undergoing chemotherapy|CATX
+915|herceptin chemo biotherapy regimen|CATX
+916|herceptin zometa cycle|CATX
+917|iniparib|CATX
+918|iniparib bsi|CATX
+919|iniparib neoadjuvant|CATX
+920|local radiation therapy|CATX
+921|multiple chemotherapeutic regimens|CATX
+922|multiple chemotherapies|CATX
+923|multiple chemotherapy regimens|CATX
+924|neoadj|CATX
+925|neoadjuvant gem carbo|CATX
+926|neoadjuvant gemcitabine carboplatin|CATX
+927|neoadjuvant setting|CATX
+928|neoadjuvant therapy|CATX
+929|radiation|CATX
+930|radiation therapy|CATX
+931|radiotherapy|CATX
+932|receiving palliative xrt|CATX
+933|regimen abraxane weekly|CATX
+934|regimen oxaliplatin avastin capecitabine|CATX
+935|regimen trastuzumab q|CATX
+936|systemic treatment|CATX
+937|tamoxifen|CATX
+938|tamoxifen therapy|CATX
+939|third generation regimen|CATX
+940|undergoing chemotherapy|CATX
+941|used adjuvant online|CATX
+942|using adjuvant online|CATX
+943|local|LOCAL
+944|local regional|LOCAL
+945|local regional failure|LOCAL
+946|locally advanced|LOCAL
+947|locally advanced breast cancer|LOCAL
+948|locally invasive|LOCAL
+949|locoregional|LOCAL
+950|locoregional disease|LOCAL
+951|locoregional failure|LOCAL
+952|regional|LOCAL
+953|local recurrence|LRECUR
+954|local recurrences|LRECUR
+955|local regional recurrence|LRECUR
+956|local regional recurrences|LRECUR
+957|local regional relapse|LRECUR
+958|locally recurrent|LRECUR
+959|loco regional recurrence|LRECUR
+960|locoregional recurrence|LRECUR
+961|regional metastasis|LRECUR
+962|regional recurrence|LRECUR
+963|regional spread|LRECUR
+964| her2 |REC
+965|/pr|REC
+966|brca |REC
+967|brca mutation carrier|REC
+968|brca positive|REC
+969|breast cancer er pr|REC
+970|carcinoma er pr|REC
+971|dx'd er pr|REC
+972|endometrial cancer|REC
+973|er pgr|REC
+974|er pos|REC
+975|er positive|REC
+976|er positive pr|REC
+977|er positive pr positive|REC
+978|er positivity|REC
+979|er pr|REC
+980|er pr her|REC
+981|er pr her neu|REC
+982|er pr ki|REC
+983|er pr neg|REC
+984|er pr negative|REC
+985|er pr pos|REC
+986|er pr positive|REC
+987|er pr positivity|REC
+988|er pr receptor|REC
+989|er richly positive|REC
+990|er-|REC
+991|er/|REC
+992|er/pr|REC
+993|er+|REC
+994|estrogen progesterone receptor|REC
+995|estrogen receptor|REC
+996|estrogen receptor progesterone receptor|REC
+997|grade er pr|REC
+998|her 2|REC
+999|her fish|REC
+1000|her neg|REC
+1001|her negative|REC
+1002|her neu|REC
+1003|her neu positive|REC
+1004|her neu positivity|REC
+1005|her pos|REC
+1006|her positive|REC
+1007|her two |REC
+1008|her2|REC
+1009|her2 pos|REC
+1010|her2+|REC
+1011|highly receptor positive|REC
+1012|hormonal receptor positive|REC
+1013|hormone receptor|REC
+1014|hormone receptor negative|REC
+1015|hormone receptor positive|REC
+1016|hormone receptor status|REC
+1017|hormone receptors|REC
+1018|idc er pos|REC
+1019|idc er pr|REC
+1020|idc er pr her|REC
+1021|intermediate grade hormone receptor|REC
+1022|negative pr|REC
+1023|negative pr egative|REC
+1024|pos pr|REC
+1025|pos pr weakly|REC
+1026|positive pr negative|REC
+1027|pr |REC
+1028|pr equivocal|REC
+1029|pr her negative|REC
+1030|pr her neu|REC
+1031|pr negative|REC
+1032|pr pos|REC
+1033|pr positive|REC
+1034|pr positive her|REC
+1035|pr positive her neu|REC
+1036|prneg her neu|REC
+1037|progesterone receptor|REC
+1038|receptor positive tumor|REC
+1039|receptor status|REC
+1040|right breast erneg|REC
+1041|strongly er pr|REC
+1042|tnbc|REC
+1043|triple negative|REC
+1044|weakly positive pr|REC
+1045| rcc|RECURR
+1046| recur|RECURR
+1047|multiple recurrences|RECURR
+1048|nodal recurrence|RECURR
+1049|nodal spread|RECURR
+1050|rapid recurrence|RECURR
+1051|recurred|RECURR
+1052|recurrence|RECURR
+1053|recurrences|RECURR
+1054|recurrent|RECURR
+1055|recurrent disease|RECURR
+1056|recurring|RECURR
+1057|reoccurrence|RECURR
+1058| mets|METS
+1059| s4 |METS
+1060|ca mets|METS
+1061|diagnoses mets|METS
+1062|lymph node metastases|METS
+1063|lymph node metastasis|METS
+1064|major secondary diagnoses mets|METS
+1065|metastaic|METS
+1066|metastases|METS
+1067|metastasis|METS
+1068|metastasized|METS
+1069|metastates|METS
+1070|metastatic|METS
+1071|metastatic adenoca|METS
+1072|metastatic adenocarcinoma|METS
+1073|metastatic cancer|METS
+1074|metastatic deposit|METS
+1075|metastatic deposits|METS
+1076|metastatic disease|METS
+1077|metastatic disease elsewhere|METS
+1078|metastatic dz|METS
+1079|metastatic endometrial|METS
+1080|metastatic foci|METS
+1081|metastatic focus|METS
+1082|metastatic infiltrating ductal|METS
+1083|metastatic infiltrating lobular|METS
+1084|metastatic involvement|METS
+1085|metastatic lesion|METS
+1086|metastatic lesions|METS
+1087|metastatic lesoin|METS
+1088|metastatic lobular|METS
+1089|metastatic lobular carcinoma|METS
+1090|metastatic lung|DRECUR
+1091|metastatic nsclc|DRECUR
+1092|metastatic poorly differentiated|METS
+1093|metastatic rcc|METS
+1094|metastatic spread|METS
+1095|metastatis|METS
+1096|metasteses|METS
+1097|metastic|METS
+1098|metastic disease|METS
+1099|metatstatic|METS
+1100|newly diagnosed metastatic|METS
+1101|newly diagnosed metastatic adenocarcinoma|METS
+1102|newly diagnosed widely metastatic|DRECUR
+1103|nodal metastases|METS
+1104|nodal metastasis|METS
+1105|occult nodal metastases|METS
+1106|positive for metastatic disease|METS
+1107|prior treated metastases|METS
+1108|recently diagnosed metastatic|METS
+1109|recently diagnosed widely metastatic|DRECUR
+1110|recurrent metastatic|METS
+1111|stage 4|METS
+1112|stage iv|METS
+1113|stage iva|METS
+1114|stage ivb|METS
+1115|stage4|METS
+1116|unknown primary|METS
+1117|unknown primary origin|METS
+1118|widely metastatic|DRECUR
+1119|widely metastatic adenocarcinoma|DRECUR
+1120|widely metastatic cancer|DRECUR
+1121|widely metastatic disease|DRECUR
+1122|widely metastatic squamous cell|DRECUR
+1123|widespread metastases|DRECUR
+1124|widespread metastasis|DRECUR
+1125|widespread metastatic|DRECUR
+1126|widespread metastatic disease|DRECUR
+1127| hepatic mets|DRECUR
+1128| known bony mets|DRECUR
+1129| mbc |MBC
+1130| met nsclc|DRECUR
+1131| met nsclca|DRECUR
+1132|bone metastases|DRECUR
+1133|bone metastases|DRECUR
+1134|bone metastasis|DRECUR
+1135|bone mets|DRECUR
+1136|bone mets major|DRECUR
+1137|boney metastases|DRECUR
+1138|bony metastases|DRECUR
+1139|bony metastasis|DRECUR
+1140|bony metastatic disease|DRECUR
+1141|bony mets|DRECUR
+1142|brain metastases|DRECUR
+1143|brain metastasis|DRECUR
+1144|brain mets|DRECUR
+1145|breast ca mets |MBC
+1146|breast metastatic to|MBC
+1147|breast mets|MBC
+1148|diffuse metastatic|DRECUR
+1149|diffuse metastatic disease|DRECUR
+1150|diffuse skeletal mets|DRECUR
+1151|hepatic metastases|DRECUR
+1152|hepatic metastasis|DRECUR
+1153|liver metastases|DRECUR
+1154|liver metastasis|DRECUR
+1155|liver mets|DRECUR
+1156|lung metastases|DRECUR
+1157|lung metastasis|DRECUR
+1158|lung mets|DRECUR
+1159|mbc pulm|DRECUR
+1160|met brca |MBC
+1161|met breast ca|MBC
+1162|metastatic br ca|MBC
+1163|metastatic brca|MBC
+1164|metastatic breast|MBC
+1165|metastatic breast ca|MBC
+1166|metastatic breast cacner|MBC
+1167|metastatic breast cancer|MBC
+1168|metastatic breast carcinoma|MBC
+1169|metastatic disease involving|MBC
+1170|metastatic disease involving bone|DRECUR
+1171|metastatic disease involving brain|DRECUR
+1172|metastatic disease involving liver|DRECUR
+1173|metastatic disease involving lung|DRECUR
+1174|metastatic disease involving multiple|MBC
+1175|metastic breast ca|MBC
+1176|nsclc metastatic|DRECUR
+1177|nsclc mets|DRECUR
+1178|osseous metastasis|DRECUR
+1179|osseous mets|DRECUR
+1180|pulm mets|DRECUR
+1181|pulmonary metastases|DRECUR
+1182|pulmonary metastasis|DRECUR
+1183|pulmonary mets|DRECUR
+1184|recurrent metastatic tnbc|MBC
+1185|sclerotic metastases|DRECUR
+1186|skeletal metastases|DRECUR
+1187|skeletal mets|DRECUR
+1188|spinal metastases|DRECUR
+1189|spinal metastases|DRECUR
+1190|spinal mets|DRECUR
+1191|spine metastases|DRECUR
+1192|widely metastatic breast ca|DRECUR
+1193|widely metastatic breast cancer|DRECUR
+1194|widely metastatic triple|DRECUR
+1195|widespread metastatic breast cancer|DRECUR
+1196|distant metastases|DRECUR
+1197|distant metastasis|DRECUR
+1198|distant metastatic|DRECUR
+1199|distant metastatic disease|DRECUR
+1200|distant metastatic spread|DRECUR
+1201|distant mets|DRECUR
+1202|distant recurrence|DRECUR
+1203|distant recurrences|DRECUR
+1204|distant relapse|DRECUR
+1205|distant sites|DRECUR
+1206|distant spread to|DRECUR
+1207|may have|HYP
+1208|might|HYP
+1209|may|HYP
