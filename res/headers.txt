@@ -1,0 +1,287 @@
+postoperative diagnosis
+preoperative diagnosis
+reason for admission
+head and neck examination
+head neck examination
+neck exam
+abdomen exam
+radiographic findings
+current medication
+discharge disposition
+intraoperative findings
+treatment course
+mental status 
+status examination
+mental status examination
+musculoskeletal exam
+findings impression
+general exam
+skin exam
+objective examination
+treatment
+rectal exam
+orthopedic examination
+secondary diagnosis
+physical and/or laboratory findings
+laboratory evaluation
+current medications include
+discharge condition
+results
+procedure note
+conclusion
+pelvic exam
+urological exam
+abdominal exam
+cardiovascular exam
+breast exam
+discharge
+social work
+pysical examination findings
+discussion
+heent exam
+medication
+diagnostic
+neurologic exam
+cardiac exam
+hospital course
+significant findings
+diagnosis discharge
+discharge diagnosis
+discharge activity
+diagnostic comments
+discharge diagnoses
+examination
+indications procedure
+indication
+problem
+condition patient discharge
+description procedure
+condition discharge
+discharge summary
+discharge summary notes
+discharge diet
+admission diagnosis
+diagnoses
+reason for hospitalization
+indications
+disposition
+discharge medications
+physical exam 
+pe
+operative findings
+type exam
+postoperative diagnosis
+preoperative diagnosis
+evaluation
+exam
+associated diagnoses
+ddxs
+ddx
+clinical diagnosis
+cytologic diagnosis
+diagnosis
+procedure
+current medications
+medications
+findings
+physical examination
+impression
+previous surgery
+previous exam
+birth developmental history
+functional history
+ocular history
+Identification History
+history operative findings
+operative findings
+follow plan
+hospitalizations
+past hospitalizations
+history present injury
+present injury
+previous treatment include
+cheif complaint
+chief complaint
+admission diagnosis
+admitting diagnosis
+admission dx
+admitting dxs
+drug intolerance
+future
+previous
+gynecologic history
+bleeding disorder
+history presenting illness
+environmental history
+past
+past history
+obstetrical history
+gyn history
+psychiatric history
+medical surgical history
+oncologic history
+goals of care
+care goals
+social history
+medications
+medication allergies
+allergies medications
+allergies medication
+follow up
+gynecologic history
+drug allergies
+medication allergies
+allergies
+surgical history
+past medical surgical history
+brief history
+medical history
+interim history
+history of present illness
+discontinued medications
+interval history 
+review of systems 
+review of review
+developmental history
+followup care
+vaccinations history
+birth history
+followup
+interval history
+past surgical history
+impression plan
+gross description
+identification
+assessment plan
+general
+plan
+past medical history
+history of present illness
+operation
+exam
+symptoms
+past medical history
+assessment
+clinical information
+id/cc
+hpi
+cancer treatment
+treatment
+pathology
+care plan
+clinical diagnosis
+history of present illness
+id
+consult
+summary
+path review
+reason for hospitalization
+idetification
+clinical history
+examination
+condition
+impression
+indication
+findings
+contrast
+history
+technique
+comparison
+resp
+neuro
+care plan
+discharge plan
+advanced care plan
+advanced directive
+plan
+skin
+chest
+endo
+social
+procedure
+radiologists
+medications
+diagnosis
+comparisons
+indications
+complications
+care
+access
+conclusion
+illness
+course
+allergies
+anesthesia
+radiograph
+heent
+ultrasound
+exam
+study
+abdomen
+consent
+addendum
+discharge
+admission
+systems
+views
+dispo
+events
+information
+soc
+data
+abg
+pulm
+pelvis
+view
+status
+diagnoses
+pain
+results
+assessment
+other
+labs
+interpretation
+comments
+radiologist
+family medical history
+family social history
+family history
+social history
+clinical history
+social work note
+lymphatics
+postoperative plan
+comparison study
+diagnostic tests
+operative indications
+goals
+developmental assessment
+amniocentesis results
+biopsy
+range of motion
+diagnostic imaging
+light microscopy
+equipment
+flow immunophenotyping
+medications include
+problem list
+reason for referral
+pet/ct
+pet
+principal diagnosis
+chromosome analysis
+technical summary
+patient condition
+bilateral screening mammogram
+smoking
+smoking status
+complications
+external cc
+imaging
+imaging finding
+comment
+clinical information
+allergies
+abdomen
+summary
+ct
