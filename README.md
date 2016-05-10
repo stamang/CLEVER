@@ -2,13 +2,15 @@
 ##(CL-inical EVE-nt R-ecognizer)##
 ##Step 1: Terminology Construction##
 ```
-CLEVER/res/w2v/clinicalphrasesv1.sh
+CLEVER/res/w2v/
+clinicalphrasesv1.sh
 ```
 Bash code for normalizing the clinical corpus and training word and phrase embeddings, using a cbow model and the word2vec's source code.
 
 ##Step 2:Preprocessing##
 ```
-CLEVER/src/extractor.py
+CLEVER/src/
+extractor.py
 ```
 **extractor.py** uses CLEVER's terminology and note header file to extract concept sequences and other annotated information from clinical text.  The output of the extractor can be be used to design CLEVER rules for clinical event detection tasks.                  
 
@@ -37,7 +39,8 @@ getTargets.py [targetwordclass(es)]
 ```
 ##Step 3: Extraction##
 ```
-CLEVER/src/executer.py 
+CLEVER/src/
+executer.py 
 ```
 ##Resources##
 ###Terminology##
