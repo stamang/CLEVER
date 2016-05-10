@@ -1,7 +1,12 @@
 # CLEVER #
 ##(CL-inical EVE-nt R-ecognizer)##
+##Step 2: Terminology Construction##
+```
+CLEVER/res/w2v/clinicalphrasesv1.sh
+```
+Bash code for normalizing the clinical corpus and training word and phrase embeddings, using a cbow model and the word2vec's source code.
 
-##Step 1: Extract##
+##Step 2:Preprocessing##
 ```
 CLEVER/src/extractor.py
 ```
@@ -26,11 +31,11 @@ python extractor.py
 
 **OUTPUT:** for target mentions detected using a maximum string length and right truncated exact string matching, CLEVER's output files include right and left n-gram features (context_left.txt, context_right.txt), candidate event snippets that can be used for additional processing steps (we use lexigram.io's Discover tool for concept recognition), and CLEVER's extraction files (extraction_processid.txt). 
 
-##Step 2: Target##
+###Get Targets###
 ```
 getTargets.py [targetwordclass(es)]
 ```
-##Step 3: Label##
+##Step 3: Extraction##
 ```
 CLEVER/src/executer.py 
 ```
