@@ -1,9 +1,7 @@
 # CLEVER #
 ##(CL-inical EVE-nt R-ecognizer)##
 
-Draft document can be found here: https://www.dropbox.com/s/f10szg57rhpt1fg/quality_measures_egems.docx?dl=0
-
-This documeention walks through an application of CLEVER for quality measurement event detection.  Specifically, the automatic extraction of Physicain Quality Reporting System measures.
+This documentation walks through an application of CLEVER for quality measurement event detection.  Specifically, the automatic extraction of Physicain Quality Reporting System measures.  Draft paper can be found here: https://www.dropbox.com/s/f10szg57rhpt1fg/quality_measures_egems.docx?dl=0
 
 ##Application: Quality Measurement Event Detection###
 
