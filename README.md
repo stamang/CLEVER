@@ -12,7 +12,7 @@ Source: clinicalphrasesv1.sh
 ```
 Bash code for normalizing the clinical corpus and training word and phrase embeddings, using a cbow model and the word2vec's source code.
 
-##Step 2:Preprocessing##
+##Step 2: Preprocessing##
 ```
 Directory: CLEVER/src/
 Source: extractor.py
