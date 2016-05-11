@@ -31,12 +31,15 @@ Directory: CLEVER/src/
 Source: getTargets.py [targetwordclass(es)]
 Dependency: helperFcns.py
 ```
+Code for aggreagating and sorting target annotations
+
 ##Step 3: Extraction##
 ```
 Directory: CLEVER/src/
 Source: executer.py 
 Dependency: ruleFcns.py
 ```
+Code for developing and executing CLEVER rules
 ##Step 4: Patient-level Reporting##
 ```
 Directory: CLEVER/src/
@@ -48,6 +51,7 @@ Dependency: helperFcns.py
 CLEVER/res/dicts/mbc_terminology.txt
 ###Section headers###
 CLEVER/res/headers.txt
+Code for aggreagating and termporally ordering labeled events by patient
 
 
 
