@@ -1,9 +1,7 @@
 # CLEVER #
 ##(CL-inical EVE-nt R-ecognizer)##
 
-Draft document can be found here: https://www.dropbox.com/s/f10szg57rhpt1fg/quality_measures_egems.docx?dl=0
-
-This documeention walks through an application of CLEVER for quality measurement event detection.  Specifically, the automatic extraction of Physicain Quality Reporting System measures.
+This documentation walks through an application of CLEVER for quality measurement event detection.  Specifically, the automatic extraction of Physicain Quality Reporting System measures.  Draft paper can be found here: https://www.dropbox.com/s/f10szg57rhpt1fg/quality_measures_egems.docx?dl=0
 
 ##Application: Quality Measurement Event Detection###
 
@@ -14,7 +12,7 @@ Source: clinicalphrasesv1.sh
 ```
 Bash code for normalizing the clinical corpus and training word and phrase embeddings, using a cbow model and the word2vec's source code.
 
-##Step 2:Preprocessing##
+##Step 2: Preprocessing##
 ```
 Directory: CLEVER/src/
 Source: extractor.py
@@ -33,12 +31,15 @@ Directory: CLEVER/src/
 Source: getTargets.py [targetwordclass(es)]
 Dependency: helperFcns.py
 ```
+Code for aggreagating and sorting target annotations
+
 ##Step 3: Extraction##
 ```
 Directory: CLEVER/src/
 Source: executer.py 
 Dependency: ruleFcns.py
 ```
+Code for developing and executing CLEVER rules
 ##Step 4: Patient-level Reporting##
 ```
 Directory: CLEVER/src/
@@ -50,6 +51,7 @@ Dependency: helperFcns.py
 CLEVER/res/dicts/mbc_terminology.txt
 ###Section headers###
 CLEVER/res/headers.txt
+Code for aggreagating and termporally ordering labeled events by patient
 
 
 
