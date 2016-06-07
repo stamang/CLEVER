@@ -7,18 +7,18 @@ This documentation walks through an application of CLEVER for quality measuremen
 
 ##Step 1: Terminology Construction##
 ```
-Directory: CLEVER/res/w2v/
-Source: clinicalphrasesv1.sh
+Directory: CLEVER/src/step1/
+Source: clinicalphrases.sh
 ```
 Bash code for normalizing the clinical corpus and training word and phrase embeddings, using a cbow model and the word2vec's source code.
 
 ##Step 2: Preprocessing##
 ```
-Directory: CLEVER/src/
-Source: extractor.py
+Directory: CLEVER/src/step2/
+Source: sequencer.py
 ```
 **Corpus:** 
-CLEVER/res/corpus/
+CLEVER/res/corpus/testnotes.txt
 Location of clinical notes directory; each note in the directory should appear on one line, preceded by the note identifier and a tab character.  For example:
 ```
 11008624	 history: the patient returns today for followup of left maxillary sinus 
@@ -31,7 +31,7 @@ Directory: CLEVER/src/
 Source: getTargets.py [targetwordclass(es)]
 Dependency: helperFcns.py
 ```
-Code for aggreagating and sorting target annotations
+Code for aggreagating and sorting target annotations for a preidentifed set of patients
 
 ##Step 3: Extraction##
 ```
@@ -48,7 +48,7 @@ Dependency: helperFcns.py
 ```
 #Resources#
 ##Terminology##
-CLEVER/res/dicts/mbc_terminology.txt
+CLEVER/res/dicts/clever_terminology.txt
 ###Section headers###
 CLEVER/res/headers.txt
 Code for aggreagating and termporally ordering labeled events by patient
