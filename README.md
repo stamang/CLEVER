@@ -1,28 +1,21 @@
 # CLEVER #
 ##(CL-inical EVE-nt R-ecognizer)##
 
-I get 10 times more traffic from [Google][1] than from
-[Yahoo][2] or [MSN][3].
-
-[1]: http://google.com/        "Google"
-[2]: http://search.yahoo.com/  "Yahoo Search"
-[3]: http://search.msn.com/    "MSN Search"
-
-This documentation will walk you throught the installation of CLEVER and an the execution of our case study, which is an example of the application of CLEVER for quality measurement event detection.  Specifically, the automatic extraction of ten Physicain Quality Reporting System measures described our [research paper][1].
+This documentation will walk you throught the installation of CLEVER and an the execution of our case study, which is an example of the application of CLEVER for quality measurement event detection.  More details on the application of CLEVER for quality measurement can be found in our [research paper][1].
 
 #Resources#
 ##Terminology##
-[CLEVER/res/dicts/clever_terminology.txt][2]
+CLEVER/res/dicts/[clever_terminology.txt][2]
 
 ###Section headers###
-[CLEVER/res/headers.txt][3]
+CLEVER/res/[headers.txt][3]
 Code for aggreagating and termporally ordering labeled events by patient
 
 ##Case study: Quality Measurement Event Detection###
 
 ##Step 1: Terminology Construction##
 
-[Step 1 wiki page][4]
+[Step 1][4] wiki page
 ```
 Directory: CLEVER/src/step1/
 Source: clinicalphrases.sh, processMimic.py
@@ -67,6 +60,13 @@ Dependency: helperFcns.py
 ```
 
 [1]: https://www.dropbox.com/s/f10szg57rhpt1fg/quality_measures_egems.docx?dl=0   "research paper"
+[2]: https://github.com/stamang/CLEVER/blob/master/res/dicts/clever_terminology.txt "clever_terminology.txt"
+[3]: https://github.com/stamang/CLEVER/blob/master/res/header.txt "header.txt"
+[4]: https://github.com/stamang/CLEVER/wiki/Step-1:-Terminology-Construction "Step 1"
+[5]: https://github.com/stamang/CLEVER/wiki/Step-2:-Text-Preprocessing "Step 2"
+[6]: https://github.com/stamang/CLEVER/wiki/Step-3:-Extraction "Step 3"
+[7]: https://github.com/stamang/CLEVER/wiki/Step-4:-Patient-level-Reporting "Step 4"
+
 
 
 
