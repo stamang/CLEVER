@@ -20,9 +20,9 @@ Code for aggreagating and termporally ordering labeled events by patient
 Directory: CLEVER/src/step1/
 Source: clinicalphrases.sh, processMimic.py
 ```
-Shell script is for for normalizing the clinical corpus and training word and phrase embeddings, using a cbow model and the word2vec's source code.
+**clinicalphrases.sh** is a shell script is for for normalizing the clinical corpus and training word and phrase embeddings, using a cbow model and the word2vec's source code.
 
-Python script processes the raw data file from the corpus directory "testnotes.txt" and generates a notemetadata file with patient id, note id, timestamp and note type information and another file, "testnotes_formatted.txt" with clinical notes formatted for Step 2.
+**processMimic.py** is a python script processes the raw data file from the corpus directory "testnotes.txt" and generates a notemetadata file with patient id, note id, timestamp and note type information and another file, "testnotes_formatted.txt" with clinical notes formatted for Step 2.
 
 ##Step 2: Text Preprocessing##
 [Step 2 Wiki Page][5]
@@ -36,7 +36,7 @@ Location of clinical notes directory; each note in the directory should appear o
 ```
 11008624	 history: the patient returns today for followup of left maxillary sinus 
 ```
-**extractor.py** uses the corpus (formatted as indicated above), CLEVER's terminology and note header file to extract concept sequences and other annotated information from clinical text.  The output of the extractor can be be used to design CLEVER rules for clinical event detection tasks.                  
+**sequencer.py** uses the corpus (formatted as indicated above), CLEVER's terminology and note header file to extract concept sequences and other annotated information from clinical text.  The output of the extractor can be be used to design CLEVER rules for clinical event detection tasks.                  
  
 ###Get Targets###
 ```
