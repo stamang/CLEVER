@@ -15,7 +15,7 @@ Code for aggreagating and termporally ordering labeled events by patient
 
 ##Step 1: Terminology Construction##
 
-[Step 1][4] wiki page
+[Step 1 Wiki Page][4]
 ```
 Directory: CLEVER/src/step1/
 Source: clinicalphrases.sh, processMimic.py
@@ -25,6 +25,7 @@ Shell script is for for normalizing the clinical corpus and training word and ph
 Python script processes the raw data file from the corpus directory "testnotes.txt" and generates a notemetadata file with patient id, note id, timestamp and note type information and another file, "testnotes_formatted.txt" with clinical notes formatted for Step 2.
 
 ##Step 2: Text Preprocessing##
+[Step 2 Wiki Page][5]
 ```
 Directory: CLEVER/src/step2/
 Source: sequencer.py
@@ -46,6 +47,7 @@ Dependency: helperFcns.py
 Code for aggreagating and sorting target annotations for a preidentifed set of patients
 
 ##Step 3: Extraction##
+[Step 3 Wiki Page][6]
 ```
 Directory: CLEVER/src/
 Source: executer.py 
@@ -53,6 +55,7 @@ Dependency: ruleFcns.py
 ```
 Code for developing and executing CLEVER rules
 ##Step 4: Patient-level Reporting##
+[Step 4 Wiki Page][7]
 ```
 Directory: CLEVER/src/
 Source: getCleverXPt.py 
