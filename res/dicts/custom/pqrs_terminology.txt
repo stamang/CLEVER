@@ -725,6 +725,391 @@
 725|those results|SCREEN
 726|those tests|SCREEN
 727|yearly screening|SCREEN
+1000|advance directive core data|ADSUP
+1001|comfort care|ADSUP
+1002|comfort care measures|ADSUP
+1003|comfort measures|ADSUP
+1004|does not have an advanced dirrective|ADSUP
+1005|full code|ADSUP
+1006|remain full code|ADSUP
+1007|advanced directives core|ADTRIG
+1008|advanced health care|ADTRIG
+1009|advanced healthcare|ADTRIG
+1010|an advanced directive|ADTRIG
+1011|appointed|ADTRIG
+1012|appointing|ADTRIG
+1013|bpa|ADTRIG
+1014|care dnr dni|ADTRIG
+1015|code dnr|ADTRIG
+1016|code dnr dni|ADTRIG
+1017|code status dnr|ADTRIG
+1018|code status dnr dni|ADTRIG
+1019|code status order dnr|ADTRIG
+1020|complete|ADTRIG
+1021|complete advanced directive|ADTRIG
+1022|confirms|ADTRIG
+1023|cpr intubation|ADTRIG
+1024|dispo pt eval|ADTRIG
+1025|dni status|ADTRIG
+1026|dni/dnr|ADTRIG
+1027|dno|ADTRIG
+1028|dnr|ADTRIG
+1029|dnr dni status|ADTRIG
+1030|dnr/dni|ADTRIG
+1031|emergency contact|ADTRIG
+1032|expressed wishes|ADTRIG
+1033|faxed|ADTRIG
+1034|has adv dir|ADTRIG
+1035|has adv directive|ADTRIG
+1036|has advanced directive|ADTRIG
+1037|indicating wishes|ADTRIG
+1038|life saving treat|ADTRIG
+1039|notarization|ADTRIG
+1040|notarized|ADTRIG
+1041|pt has|ADTRIG
+1042|pt want|ADTRIG
+1043|pt wants|ADTRIG
+1044|want|ADTRIG
+1045|wants|ADTRIG
+1046|wishes|ADTRIG
+1047|advance directive|ADV
+1048|advance directive complete yes|ADV
+1049|advance directives|ADV
+1050|advanced directives|ADV
+1051|dpoa paperwork|ADVP
+1052|fill out advanced directive|ADVP
+1053|life saving treatment|ADV
+1054|no heroics|ADV
+1055|partial code|ADV
+1056|prolonged life support|ADV
+1057|advance directive completed|ADVP
+1058|advance directive document|ADVP
+1059|advance directive form|ADVP
+1060|advance directive rec|ADVP
+1061|advance health care direct|ADVP
+1062|advanced care plan|ADVP
+1063|advanced directive form|ADVP
+1064|advanced directive on file|ADVP
+1065|advanced directives bpa|ADVP
+1066|ahcd|ADVP
+1067|comfort care only|ADVP
+1068|comfort measures only|ADVP
+1069|completed advance directive|ADVP
+1070|confirms dnr dni|ADVP
+1071|designated decision maker|ADVP
+1072|dni dnr form|ADVP
+1073|dnr dni polst|ADVP
+1074|do not intubate|ADVP
+1075|dpahc|ADVP
+1076|dpoa|ADVP
+1077|dpoa's|ADVP
+1078|end of life goals|ADVP
+1079|has advanced directive on file|ADVP
+1080|health care proxy|ADVP
+1081|healthcare proxy|ADVP
+1082|heroic measures|ADVP
+1083|heroics|ADVP
+1084|life sustaining treatment|ADVP
+1085|no heroic|ADVP
+1086|no heroic measures|ADVP
+1087|no life saving treatment|ADVP
+1088|no prolonged life support|ADVP
+1089|polst|ADVP
+1090|polst completed|ADVP
+1091|polst document|ADVP
+1092|polst form|ADVP
+1093|polst physician|ADVP
+1094|surrogate assigned|ADVP
+1095|surrogate decision maker|ADVP
+1096|wants aggressive intervention|ADVP
+1097|cataract|CAT
+1098|patient has|CONTRIG
+1099|demented|DEM
+1100|dementia|DEM
+1101|demential|DEM
+1102|dimentia|DEM
+1103|consult|DISC
+1104|consultation regarding|DISC
+1105|consulting|DISC
+1106|counsel|DISC
+1107|counselling|DISC
+1108|demonstrated understanding|DISC
+1109|discus|DISC
+1110|discussed extensively|DISC
+1111|discussed management|DISC
+1112|discusses|DISC
+1113|discussing various|DISC
+1114|expressed understanding|DISC
+1116|face-to-face|DISC
+1117|face-to-face counseling|DISC
+1118|face-to-face discussion|DISC
+1119|min discussing|DISC
+1120|minutes discussing|DISC
+1121|spent counseling|DISC
+1122|spent discussing|DISC
+1123|spent explaining|DISC
+1124|verbalized understanding|DISC
+1125|voiced understanding|DISC
+1126|after discussing|DISC
+1127|after discussion|DISC
+1128|an extensive discussion|DISC
+1129|brief discussion|DISC
+1130|briefly discussed|DISC
+1131|counseled|DISC
+1132|depth discussion|DISC
+1133|discuss|DISC
+1134|discussed|DISC
+1135|discussion|DISC
+1136|discussions|DISC
+1137|discussions about|DISC
+1138|educated|DISC
+1139|education regarding|DISC
+1140|explained|DISC
+1141|extensive discussion|DISC
+1142|extensive discussion regarding|DISC
+1143|extensive discussions|DISC
+1144|extensively discussed|DISC
+1145|further discussion|DISC
+1146|further discussions|DISC
+1147|inform them|DISC
+1148|informed|DISC
+1149|informed them|DISC
+1150|informing|DISC
+1151|initial consultation|DISC
+1152|lengthy discussion|DISC
+1153|long conversation|DISC
+1154|long discussion|DISC
+1155|our discussion|DISC
+1156|reiterated|DISC
+1157|automobile|DRIVE
+1158|cannot drive|DRIVE
+1159|car|DRIVE
+1160|drive|DRIVE
+1161|drive cautiously|DRIVE
+1162|driving|DRIVE
+1163|abstain from driving|DRIVEP
+1164|against driving|DRIVEP
+1165|avoid driving|DRIVEP
+1166|refrain from driving|DRIVEP
+1167|refraining from driving|DRIVEP
+1168|safe driving|DRIVEP
+1169|should avoid driving|DRIVEP
+1170|dysphagia|DYS
+1171|dysphasia|DYS
+1172|dysphagia evaluation|DYSP
+1173|dysphagia screen|DYSP
+1174|20-10|EYE
+1175|20-15|EYE
+1176|20-20|EYE
+1177|20-25|EYE
+1178|20-35|EYE
+1179|20-40|EYE
+1180|20/10|EYE
+1181|20/15|EYE
+1182|best corrected|EYE
+1183|best corrected visual acuity|EYE
+1184|best visual|EYE
+1185|corrected visual acuity|EYE
+1186|vision improv|EYE
+1187|visual acuity|EYE
+1188|visual acuity of|EYE
+1189|20/20|EYEP
+1190|20/25|EYEP
+1191|20/35|EYEP
+1192|20/40|EYEP
+1193|stage 1|STAGE
+1194|stage 2|STAGE
+1195|stage I|STAGE
+1196|stage II|STAGE
+1197|stage 3|STAGE
+1201|applied|PTRIG
+1202|blanchable redness|PTRIG
+1203|buttocks|PTRIG
+1204|changed|PTRIG
+1205|coccxy|PTRIG
+1206|coccygeal|PTRIG
+1207|coccyx|PTRIG
+1208|coccyx sacrum|PTRIG
+1209|cocyx|PTRIG
+1210|decub|PTRIG
+1211|decubit|PTRIG
+1212|decubital|PTRIG
+1213|decubitis|PTRIG
+1214|decubitus|PTRIG
+1215|decubs|PTRIG
+1216|dressing|PTRIG
+1217|drsg|PTRIG
+1218|film|PTRIG
+1219|fluid|PTRIG
+1220|intact|PTRIG
+1221|lateral|PTRIG
+1222|lateral decubitus|PTRIG
+1223|mepilex|PTRIG
+1224|mepilex border|PTRIG
+1225|meplix|PTRIG
+1226|pic taken|PTRIG
+1227|picture taken|PTRIG
+1228|pictures taken|PTRIG
+1229|red blanchable|PTRIG
+1230|redness blanchable|PTRIG
+1231|sacral|PTRIG
+1232|sacrum|PTRIG
+1233|skin|PTRIG
+1234|unstageable|PTRIG
+1235|view|PTRIG
+1236|bed sore|PU
+1237|coccygeal ulcer|PU
+1238|decub cxr|PU
+1239|decubiti|PU
+1240|decubiti ulcers|PU
+1241|decubitus ulcer|PU
+1242|decubitus ulcers|PU
+1243|presssure ulcer|PU
+1244|pressure sore|PU
+1245|pressure sores|PU
+1246|pressure ulcer|PU
+1247|pressure ulcers|PU
+1248|sacral decubitus ulcer|PU
+1249|sacral pressure ulcer|PU
+1250|skin pressure ulcer|PU
+1251|acute|QUAL
+1252|minor|QUAL
+1253|mild|QUALDM
+1254|moderate|QUALDM
+1255|severe|QUALDM
+1256|mixed|QUALUI
+1257|stress|QUALUI
+1258|urge|QUALUI
+1259|od|REYE
+1260|right eye|REYE
+1261|os|LEYE
+1262|left eye|LEYE
+1263|24 hour supervision|SAFE
+1264|24-hour supervision|SAFE
+1265|bed alarm|SAFE
+1266|caregiver training|SAFE
+1267|close supervision|SAFE
+1268|constant supervision|SAFE
+1269|fall|SAFE
+1270|fall down stairs|SAFE
+1271|fall onto|SAFE
+1272|fall risk|SAFE
+1273|falling|SAFE
+1274|falling backwards|SAFE
+1275|falling onto|SAFE
+1276|fell|SAFE
+1277|fell backward|SAFE
+1278|fell backwards|SAFE
+1279|fell down stairs|SAFE
+1280|fell onto|SAFE
+1281|fell while|SAFE
+1282|frequent fall|SAFE
+1283|frequent falls|SAFE
+1284|high fall risk|SAFE
+1285|high falls risk|SAFE
+1286|hitting|SAFE
+1287|home environment|SAFE
+1288|injured|SAFE
+1289|landed on|SAFE
+1290|living environment|SAFE
+1291|locked herself|SAFE
+1292|locked himself|SAFE
+1293|locking herself|SAFE
+1294|mech fall|SAFE
+1295|mechanical fall|SAFE
+1296|multiple falls|SAFE
+1297|navigate around obstacles|SAFE
+1298|precautions: falls|SAFE
+1299|reaclls fall|SAFE
+1300|safe|SAFE
+1301|safe environment|SAFE
+1302|safe living situation|SAFE
+1303|safety|SAFE
+1304|safety awareness|SAFE
+1305|safety issues|SAFE
+1306|safety judgement|SAFE
+1307|safety precautions|SAFE
+1308|safety reason|SAFE
+1309|safety reasons|SAFE
+1310|self care|SAFE
+1311|self-care|SAFE
+1312|slipped|SAFE
+1313|slipping|SAFE
+1314|stumbeled|SAFE
+1315|support driving privileges|DRIVE
+1316|tripped|SAFE
+1317|tripping|SAFE
+1318|unit|SAFE
+1319|unsafe|SAFE
+1320|uses walker|SAFE
+1321|wandered around|SAFE
+1322|wandered away|SAFE
+1323|wandered away from|SAFE
+1324|wandered off|SAFE
+1325|witnissed fall|SAFE
+1326|advise against driving|DRIVEP
+1327|cease driving|DRIVEP
+1328|driving restrictions|DRIVEP
+1329|ensure safety|DRIVEP
+1330|fall prevention|DRIVEP
+1331|fall risk precautions|DRIVEP
+1332|must refrain from|DRIVEP
+1333|operate motor vehicles|SAFEP
+1334|personal safety|SAFEP
+1335|refrain from operating|SAFEP
+1337|refraining from operating|SAFEP
+1338|safe home environment|SAFEP
+1339|safety awareness impaired|SAFEP
+1340|safety hazards|SAFEP
+1341|safety precautions such|SAFEP
+1342|stop driving|SAFEP
+1343|wandering away|SAFEP
+1344|wandering off|SAFEP
+1345|wandering outside|SAFEP
+1346|clarify code|SUP
+1347|no adv|SUP
+1348|bladder incontinence|UI
+1349|leaks urine|UI
+1350|neurogenic bladder|UI
+1351|ui|UI
+1352|urinary incontinence|UI
+1353|urinary leakage|UI
+1354|wearing pads|UI
+1355|wears adult diaper|UI
+1356|wears depends|UI
+1357|wears diaper|UI
+1358|mixed incontinence|UICHAR
+1359|occasional urge incontinence|UICHAR
+1360|overflow incontinence|UICHAR
+1361|overflow urinary incontinence|UICHAR
+1362|rare sui|UICHAR
+1363|rare uui|UICHAR
+1364|stress incontinence|UICHAR
+1365|stress ui|UICHAR
+1366|sui|UICHAR
+1367|sui/uui|UICHAR
+1368|urge incontinence|UICHAR
+1369|urgency incontinence|UICHAR
+1370|urinary stress incontinence|UICHAR
+1371|urinary urge incontinence|UICHAR
+1372|uui|UICHAR
+1373|incontince|UITRIG
+1374|incontinence|UITRIG
+1375|incontinences|UITRIG
+1376|incotninence|UITRIG
+1377|increased urinary frequency|UITRIG
+1378|macrodantin|UITRIG
+1379|nitrofurantoin|UITRIG
+1380|nocturnal|UITRIG
+1381|urg|UITRIG
+1382|urinalysis|UITRIG
+1383|urinary urgency|UITRIG
+1384|urinary urgency frequency|UITRIG
+1385|urinary tract inf|UTI
+1386|urinary tract infection|UTI
+1387|urinary tract infections|UTI
+1388|urosepsis|UTI
+1389|uti|UTI
 2000| idc|BCA
 2001|breast ca|BCA
 2002|breast cancer|BCA
@@ -917,7 +1302,7 @@
 2189|brain metastases|DRECUR
 2190|brain metastasis|DRECUR
 2191|brain mets|DRECUR
-2192|cancer diagnosis neuroendrocrine|DRECUR
+2192|cancer diagnosis neuroendrocrine|CA
 2193|diagnoses mets|DRECUR
 2194|diffuse metastatic|DRECUR
 2195|diffuse metastatic disease|DRECUR
@@ -934,24 +1319,24 @@
 2206|distant relapse|DRECUR
 2207|distant sites|DRECUR
 2208|distant spread to|DRECUR
-2209|endometrial cancer|DRECUR
-2210|esophageal cancer|DRECUR
-2211|gastric cancer|DRECUR
+2209|endometrial cancer|CA
+2210|esophageal cancer|CA
+2211|gastric cancer|CA
 2212|hepatic metastases|DRECUR
 2213|hepatic metastasis|DRECUR
 2214|hepatic mets|DRECUR
-2215|intestinal cancer|DRECUR
+2215|intestinal cancer|CA
 2216|liver metastases|DRECUR
 2217|liver metastasis|DRECUR
 2218|liver mets|DRECUR
-2219|lung ca|DRECUR
-2220|lung cancer|DRECUR
+2219|lung ca|CA
+2220|lung cancer|CA
 2221|lung metastases|DRECUR
 2222|lung metastasis|DRECUR
 2223|lung mets|DRECUR
 2224|lymph node metastases|DRECUR
 2225|lymph node metastasis|DRECUR
-2226|lymphoma|DRECUR
+2226|lymphoma|CA
 2227|major secondary diagnoses mets|DRECUR
 2228|mbc pulm|DRECUR
 2229|met nsclc|DRECUR
@@ -981,7 +1366,7 @@
 2253|metastic disease|DRECUR
 2254|mets rcc|DRECUR
 2255|mrcc|DRECUR
-2256|neuroendocrine tumor|DRECUR
+2256|neuroendocrine tumor|CA
 2257|newly diagnosed metastatic|DRECUR
 2258|newly diagnosed metastatic adenocarcinoma|DRECUR
 2259|newly diagnosed widely metastatic|DRECUR
@@ -993,24 +1378,24 @@
 2265|occult nodal metastases|DRECUR
 2266|osseous metastasis|DRECUR
 2267|osseous mets|DRECUR
-2268|ovarian ca|DRECUR
-2269|pancreatic ca|DRECUR
-2270|pancreatic cancer|DRECUR
+2268|ovarian ca|CA
+2269|pancreatic ca|CA
+2270|pancreatic cancer|CA
 2271|positive for metastatic disease|DRECUR
 2272|prior treated metastases|DRECUR
-2273|prostate cancer|DRECUR
+2273|prostate cancer|CA
 2274|pulm mets|DRECUR
 2275|pulmonary metastases|DRECUR
 2276|pulmonary metastasis|DRECUR
 2277|pulmonary mets|DRECUR
-2278|rcc s/p nephrectomy|DRECUR
-2279|rcc s/p partial nephrectomy|DRECUR
+2278|rcc s/p nephrectomy|RECUR
+2279|rcc s/p partial nephrectomy|RECUR
 2280|recently diagnosed metastatic|DRECUR
 2281|recently diagnosed widely metastatic|DRECUR
 2282|recurrent metastatic|DRECUR
-2283|renal cell ca major|DRECUR
-2284|renal cell carcinoma|DRECUR
-2285|renal-cell carcinoma|DRECUR
+2283|renal cell ca major|CA
+2284|renal cell carcinoma|CA
+2285|renal-cell carcinoma|CA
 2286|sclerotic metastases|DRECUR
 2287|skeletal metastases|DRECUR
 2288|skeletal mets|DRECUR
@@ -1026,9 +1411,9 @@
 2298|stage iva|DRECUR
 2299|stage ivb|DRECUR
 2300|stage4|DRECUR
-2301|stomach cancer|DRECUR
-2302|thyroid cancer|DRECUR
-2303|urothelial ca|DRECUR
+2301|stomach cancer|CA
+2302|thyroid cancer|CA
+2303|urothelial ca|CA
 2304|widely metastatic|DRECUR
 2305|widely metastatic adenocarcinoma|DRECUR
 2306|widely metastatic breast ca|DRECUR
@@ -1370,5 +1755,14 @@
 2642|perjeta|STUDYRX
 2643|pertuzamab|STUDYRX
 2644|pertuzumab|STUDYRX
-2645|ing|VB
+2645|ing |VB
 2646|involving|VB
+3000|consistant with|DXTRIG
+3001|pt with|DXTRIG
+3002|patient with|DXTRIG
+3003|patient w/|DXTRIG
+3004|pt w/|DXTRIG
+3005|pt with|DXTRIG
+3006|diagnosed|DXTRIG
+3007|TNM|DXTRIG
+3008|dx|DXTRIG
