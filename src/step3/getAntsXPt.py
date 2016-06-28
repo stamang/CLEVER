@@ -1,5 +1,5 @@
 import os, sys, operator
-from helperFcns import *
+from step3fcn import *
 
 proj = "pqrs"
 ppath = "../../proj/"+proj+"/"
@@ -18,7 +18,6 @@ noteMDict = loadOncoNoteMdata(noteMdata)                                     #pa
 seqDict = {}
 for target in target_class:
     seqFile = ppath +"seq/"+target+"/extraction*.tsv"
-    print seqFile
     tmpDict = loadSeqs(seqFile,noteMDict,termDict)
     seqDict.update(tmpDict)
 print len(seqDict)
@@ -26,15 +25,16 @@ print len(seqDict)
 for oncoid in s6pts:
     pt = str(s6pts[oncoid])
 #for pt in testpts:
-    print pt
+#    print pt
     ptAnts = []
     fout = open(ppath+"/ptseq/seqs_"+pt+".txt","w") 
     for sid in seqDict:
         tmp = seqDict[sid]
         sinfo = tmp.split("|")
-        print sinfo
-        if sinfo[4]==pt:
-#            print "found"
+        #print sinfo
+        tmpsinfo = sinfo[0].split("-")
+        if tmpsinfo[1]==pt:
+            #print "found:",sinfo
             toff = sinfo[7]
             litem = [toff,tmp]
             if litem not in ptAnts:
