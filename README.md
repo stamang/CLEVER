@@ -37,17 +37,20 @@ Location of clinical notes directory; each note in the directory should appear o
 11008624	 history: the patient returns today for followup of left maxillary sinus 
 ```
 **sequencer.py** uses the corpus (formatted as indicated above), CLEVER's terminology and note header file to extract concept sequences and other annotated information from clinical text.  The output of the extractor can be be used to design CLEVER rules for clinical event detection tasks.                  
- 
-###Get Targets###
-```
-Directory: CLEVER/src/
-Source: getTargets.py [targetwordclass(es)]
-Dependency: helperFcns.py
-```
-Code for aggreagating and sorting target annotations for a preidentifed set of patients
 
 ##Step 3: Extraction##
 [Step 3 Wiki Page][6]
+
+###First, create the patient-level feature representation###
+```
+Directory: CLEVER/src/
+Source: getAntsXpt.py [targetwordclass(es)]
+Dependency: step3fcn.py
+```
+Code for aggreagating and sorting target annotations for a preidentifed set of patients
+
+Calls: ../../proj/[projectname]/ptkey.txt 
+
 ```
 Directory: CLEVER/src/
 Source: executer.py 
