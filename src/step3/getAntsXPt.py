@@ -5,10 +5,10 @@ from step3fcn import *
 dictfile = sys.argv[1]
 proj = sys.argv[2]
 ppath = "../../proj/"+proj+"/"
-ptKey = "../../proj/"+proj+"/ptkey.txt"  
+ptKey = "../../proj/"+proj+"/ptselection/ptkey.txt"  
 noteMdata = "../../res/corpus/testnotemdata.txt"
 # target classes #
-target_class = ["mbc","drecur","lrecur","advp","recur","mets","dem","ui"]
+target_class = ["mbc","drecur","lrecur","loco","mets"]
 s6pts = getPids(0,ptKey)                                             #S6 ids for subset
 termDict = getTerminology(dictfile)                                          #get terminology
 

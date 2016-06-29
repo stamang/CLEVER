@@ -68,7 +68,7 @@ def loadSeqs(seqFiles,noteDict,mbcDict):
             #print tmptags
             #print tmp
             ants[tmp_key] = sinfo
-    print len(ants),"total targets"
+    print len(ants),"total annotation for target terms"
     return ants
 
 def gettagterm(tag,dictionary):
