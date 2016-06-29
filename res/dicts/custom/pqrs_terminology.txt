@@ -185,14 +185,14 @@
 185|sisters|FAM
 186|sisters-in-law|FAM
 187|sisters'|FAM
-188|son|FAM
+188| son|FAM
 189|son-in-law|FAM
 190|son-in-law's|FAM
 191|son-in-laws'|FAM
-192|son's|FAM
-193|sons|FAM
+192| son's|FAM
+193| sons|FAM
 194|sons-in-law|FAM
-195|sons'|FAM
+195| sons'|FAM
 196|spouse|FAM
 197|spouse's|FAM
 198|spouses|FAM
