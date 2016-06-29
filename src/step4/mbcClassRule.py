@@ -125,11 +125,11 @@ def checkSentence(lseq,rseq):
 			return 1
 	else: return 0
 
-target = "drecur"
+measure = "mbc"
 proj = "pqrs"
 ppath = "../../proj/"+proj+"/"
 fins = glob.glob(ppath+"ptseq/seqs_*.txt")
-opath = ppath+"labeled/"+target+"/"
+opath = ppath+"labeled/"+measure+"/"
 fout_pos = open(opath+"all_pos.txt","w")
 fout_neg = open(opath+"all_neg.txt","w")
 fout_drecur = open(opath+"all_drecur.txt","w")

@@ -1,14 +1,14 @@
 import os, sys, operator
 from step3fcn import *
 
-proj = "pqrs"
+# must rpovide the dict file and the project name
+dictfile = sys.argv[1]
+proj = sys.argv[2]
 ppath = "../../proj/"+proj+"/"
 ptKey = "../../proj/"+proj+"/ptkey.txt"  
 noteMdata = "../../res/corpus/testnotemdata.txt"
-dpath = "../../res/dicts/"
-dictfile = dpath+"clever_terminology.txt"
 # target classes #
-target_class = ["mbc","drecur","lrecur","advp","recur","mets"]
+target_class = ["mbc","drecur","lrecur","advp","recur","mets","dem","ui"]
 s6pts = getPids(0,ptKey)                                             #S6 ids for subset
 termDict = getTerminology(dictfile)                                          #get terminology
 
@@ -17,7 +17,7 @@ noteMDict = loadOncoNoteMdata(noteMdata)                                     #pa
 
 seqDict = {}
 for target in target_class:
-    seqFile = ppath +"seq/"+target+"/extraction*.tsv"
+    seqFile = ppath +"ants/"+target+"/extraction*.tsv"
     tmpDict = loadSeqs(seqFile,noteMDict,termDict)
     seqDict.update(tmpDict)
 print len(seqDict)
