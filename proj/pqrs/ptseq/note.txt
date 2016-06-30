@@ -1,0 +1,1 @@
+this is the output directory for pt-level intermediate events schemas
