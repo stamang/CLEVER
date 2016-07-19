@@ -13,8 +13,6 @@ def assignMBCLabel(cevent):
 	if sentsem == 1: 
 		return ["POSITIVE",tclass]
 	label = cleverRule(cseq,tclass)
-#	print "LABEL: ", label
-	#print tmp
 	return label 
 
 def formatSeq(seq,tclass):
@@ -30,7 +28,6 @@ def formatSeq(seq,tclass):
 	elif "#"+tclass+"#_" in seq: 
 		tmp = seq.split("#"+tclass+"#_")
 		rseq = tmp[1].split("_")
-#	print lseq,rseq
 	return [lseq,rseq]
 
 def cleverRule(cseq,tclass):
@@ -54,21 +51,17 @@ def cleverRule(cseq,tclass):
 		if llseq > 0: 
 			pre1 = lseq[llseq-1]
 			if pre1 == tag: 
-#				print "NEG: ",tag,tclass,cseq
 				return [neg,tag] 
 		if lrseq > 0:
 			post1 = rseq[0]
 			if post1 == tag: 
-#				print "NEG: ",tag,tclass, cseq
 				return [neg,tag]
-		# two to the left, look for salvage before retuning value
 		if llseq > 2:
 			pre2 = lseq[llseq-2]
 			if pre2 == tag and pre1 != "DOT": 
-#				print "NEG: ",tag,tclass,cseq
 				return [neg,tag]
-                if llseq > 3 and tag != "NEGEX":                                                                                                                                                                                                              
-                        pre3 = lseq[llseq-3]                                                                                                                                                                                                                  
+                if llseq > 3 and tag != "NEGEX":
+                        pre3 = lseq[llseq-3]
                         if pre3 == tag and pre1 != "DOT": 
 				return [neg,tag] 
 	#print "Probably POSITIVE, is it a DRECUR?"
@@ -84,32 +77,6 @@ def cleverRule(cseq,tclass):
 			if (post1 == "BLOC" and post2 == "BLOC") or  (post1 == "LOC" and post2 == "BLOC") or  (post1 == "BLOC" and post2 == "LOC"):
 #				print "POS: ","DRECUR_P",tclass,cseq
 				return [pos,"DRECUR-E1"]
-#	exception = 1
-	#for tag in trigs:
-	#	if cseq[0] != None and cseq[1] != None:
-	#		if (tag not in lseq and tag not in rseq):
-	#			if ("BLOC"in cseq[0] or "BLOC" in cseq[1]) or ("DRECUR" in cseq[0] or "DRECUR" in cseq[1]):
-	#				print "POS: ","DRECUR_P",tclass,cseq
-	#				esem = "-E2"
-	#			else: exception = 0
-	#		else: exception = 0
-	#	elif cseq[0] == None:
-	#		if (tag not in cseq[1]):
-        #                        if ("BLOC"in cseq[1]  or "DRECUR" in cseq[1]):
-        #                                print "POS: ","DRECUR_P",tclass,cseq
-	#				esem = "-E3"
-	#			else: exception = 0
-	#		else: exception = 0
-	#	elif cseq[1] == None:
-	#		if (tag not in cseq[0]):
-	#			if ("BLOC"in cseq[0]  or "DRECUR" in cseq[0]):
-        #                                print "POS: ","DRECUR_P",tclass,cseq
-	#				esem = "-E4"
-	#			else: exception = 0
-	#		else: exception = 0
-	#if exception == 1: return [pos,"DRECUR_P"+esem]
-
-#	print "POS: ",tclass,cseq
 	return [pos,tclass]
 
 def checkSentence(lseq,rseq):
@@ -130,20 +97,14 @@ proj = "pqrs"
 ppath = "../../proj/"+proj+"/"
 fins = glob.glob(ppath+"ptseq/seqs_*.txt")
 opath = ppath+"labeled/"+measure+"/"
+ptPEvents = {}
+ptNEvents = {}
+ptEvents = {}
 fout_pos = open(opath+"all_pos.txt","w")
 fout_neg = open(opath+"all_neg.txt","w")
 fout_drecur = open(opath+"all_drecur.txt","w")
 for fin in fins:
 	print fin
-	tmp = fin.strip(".txt")
-	tmp = tmp.split("_")
-#	print tmp
-	tmpf = "pt"+tmp[1]
-#	print "PT:",tmpf
-	fpos = open(opath+tmpf+"_pos.txt","w")
-	fneg = open(opath+tmpf+"_neg.txt","w")
-	fcron = open(opath+tmpf+"_cron.txt","w")
-#	print "\n"
 	with open(fin) as f:
 		for line in f:
 			tmp = line.strip()
@@ -161,25 +122,66 @@ for fin in fins:
 			tclass = tmpe[9]
 			tags = tmpe[14]
 			snippet = tmpe[len(tmpe)-1]
-#			print label, tmp
 			sum_out = label[0]+"|"+label[1]+"|"+pid+"|"+year+"|"+cid+"|"+time+"|"+ntype+"|"+nid+"|"+tterm+"|"+snippet
 			long_out =  label[0]+"|"+label[1]+"|"+tmp
+                        tmpE = ""
 			if label[0] == "POSITIVE":
 				print >> fout_pos, long_out
-				print >> fpos, sum_out
-				print >> fcron, sum_out
+                                if pid not in ptPEvents:
+                                        ptPEvents[pid]=[sum_out]
+                                        ptEvents[pid]=[sum_out]
+                                else:
+                                        tmpE = ptPEvents[pid]
+                                        tmpE.append(sum_out)
+                                        ptPEvents[pid]=tmpE
+                                        ptEvents[pid]=tmpE
+                                        print sum_out,tmpE
 		                if "DRECUR" in label[1]:
                                      print >> fout_drecur, sum_out
                         if label[0] == "NEGATIVE":
                                 print >> fout_neg, long_out
-				print >> fneg, sum_out
-				print >> fcron,sum_out
-	fpos.close()
-	fcron.close()
-	fneg.close()
+                                if pid not in ptNEvents:
+                                        ptNEvents[pid]=[sum_out]
+                                        ptEvents[pid]=[sum_out]
+                                else:
+                                        tmpE = ptNEvents[pid]
+                                        tmpE.append(sum_out)
+                                        ptNEvents[pid]=tmpE
+                                        ptEvents[pid]=tmpE
+                                        print sum_out,tmpE
 
 fout_pos.close()
 fout_neg.close()
+
+print len(ptPEvents)
+print len(ptNEvents)
+print len(ptEvents)
+for pid in ptPEvents:
+        fpos = open(opath+"pt"+pid+"_pos.txt","w")
+        te = ptPEvents[pid]
+        for i in range(len(te)):
+                tevent = te[i]
+                print >> fpos,tevent
+                print pid,tevent
+        fpos.close()
+
+for pid in ptNEvents:
+        fneg = open(opath+"pt"+pid+"_neg.txt","w")
+        te = ptNEvents[pid]
+        for i in range(len(te)):
+                tevent = te[i] 
+                print >> fneg,tevent
+                print pid,tevent
+        fneg.close()
+
+for pid in ptEvents:
+        fcron = open(opath+"pt"+pid+"_cronology.txt","w")
+        te = ptEvents[pid]
+        for i in range(len(te)):
+                tevent = te[i] 
+                print >> fcron,tevent
+                print pid,tevent
+        fcron.close()
 
 #s =assignMBCLabel(snippet)
 #print s
